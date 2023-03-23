@@ -1,8 +1,7 @@
 <template>
   <div id="root-container">
     <div id="app">
-      <img src="/src/assets/ServiceAra.svg" alt="logo" />
-      <h1> NewARA </h1>
+      <Login />
     </div>
   </div>
 </template>
