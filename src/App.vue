@@ -1,7 +1,8 @@
 <template>
   <div id="root-container">
     <div id="app">
-      <Login />
+      <img src="/src/assets/ServiceAra.svg" alt="logo" />
+      <h1> NewARA </h1>
     </div>
   </div>
 </template>
@@ -12,7 +13,7 @@ import Login from '/src/components/Login.vue'
 export default {
   name: 'App',
 
-  components: { Facade },
+  components: { Login },
 
 }
 </script>

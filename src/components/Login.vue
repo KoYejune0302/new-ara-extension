@@ -3,7 +3,6 @@
     <h1> NewARA </h1>
      <a :href="loginUrl" class="button banner__button login__link">
         <i class="material-icons">login</i>
-        {{ $t('login') }}
       </a> 
   </div>
 </template>
