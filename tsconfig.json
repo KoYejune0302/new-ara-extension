@@ -1,4 +1,9 @@
 {
+  "vueCompilerOptions": {
+    "extensions": [
+      ".vue"
+    ]
+  },
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",

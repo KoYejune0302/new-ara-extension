@@ -3,23 +3,25 @@
     <img src="/src/assets/ServiceAra.svg" alt="logo" />
     <button class="button language-button" @click="changeLocale">
       <i class="material-icons">language</i>
-      <span class="is-hidden-touch">{{ $t('lang') }}</span>
+      <span class="is-hidden-touch">한국어</span>
     </button>
     <div class="banner login">
         <div class="banner__identity-bar" />
         <h1 class="banner__title">
-          {{ $t('login-title') }}
+          <!-- {{ $t('login-title') }} -->
+          Please login to use NewAra services
         </h1>
         <a :href="loginUrl" class="button banner__button login__link">
           <i class="material-icons">login</i>
-          {{ $t('login') }}
+          <!-- {{ $t('login') }} -->
+          Log in with SPARCS SSO
         </a>
       </div>
   </div>
 </template>
 
 <script>
-import { changeLocale } from '/src/i18n'
+// import { changeLocale } from '/src/i18n'
 
 
 export default {
@@ -32,12 +34,12 @@ export default {
   },
 
   methods: {
-    changeLocale
+    // changeLocale
   }
 }
 </script>
 
-<i18n>
+<!-- <i18n>
 ko:
   lang: 'English'
   login-title: '뉴아라 서비스를 이용하시려면 로그인해주세요.'
@@ -47,7 +49,7 @@ en:
   lang: '한국어'
   login-title: 'Please login to use NewAra services'
   login: 'Log in with SPARCS SSO'
-</i18n>
+</i18n> -->
 
 <style lang="scss" scoped>
 @import '/src/theme.scss';
