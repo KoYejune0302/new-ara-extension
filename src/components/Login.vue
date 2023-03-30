@@ -29,7 +29,7 @@ export default {
 
   computed: {
     loginUrl () {
-      return 'https://newara.sparcs.org'
+      return `${location.protocol}//${location.host}/`
     }
   },
 

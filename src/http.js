@@ -1,7 +1,7 @@
 import axios from 'axios'
-import cookie from '@/utils/cookie'
-import router from '@/router'
-import { getValidatorError } from '@/helper'
+import cookie from '/src/utils/cookie'
+import router from '/src/router'
+import { getValidatorError } from '/src/helper'
 
 const apiUrl = (function () {
   if (process.env.VUE_APP_API_HOST) {

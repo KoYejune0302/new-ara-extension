@@ -1,7 +1,7 @@
 <template>
   <div id="root-container">
     <div id="app">
-      <Login />
+      <router-view></router-view>
     </div>
   </div>
 </template>
